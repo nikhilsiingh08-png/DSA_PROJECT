@@ -1,0 +1,37 @@
+
+# 19. Parenthesis Matching
+
+## Question Description
+Implement a C++ program to check whether parentheses in an expression are balanced using a stack. The program should handle (), {}, and [] brackets.
+
+## Test Cases
+
+### Test Case 1
+Input: `({[]})`
+
+Expected Output:
+`Balanced`
+
+### Test Case 2
+Input: `([)]`
+
+Expected Output:
+`Not Balanced`
+
+### Test Case 3
+Input: `((()))`
+
+Expected Output:
+`Balanced`
+
+### Test Case 4
+Input: `(()`
+
+Expected Output:
+`Not Balanced`
+
+## Time Complexity
+- O(n), where n is the length of the expression.
+
+## Space Complexity
+- O(n) in the worst case for the stack.
