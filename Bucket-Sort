@@ -1,0 +1,32 @@
+
+# 12. Bucket Sort
+
+## Question Description
+Implement the Bucket Sort algorithm in C++ to sort an array of floating-point numbers in ascending order. The algorithm distributes elements into buckets, sorts each bucket, and combines them.
+
+## Test Cases
+
+### Test Case 1
+Input: `[0.42, 0.32, 0.23, 0.52, 0.25, 0.47, 0.51]`
+
+Expected Output:
+`[0.23, 0.25, 0.32, 0.42, 0.47, 0.51, 0.52]`
+
+### Test Case 2
+Input: `[0.8, 0.4, 0.2, 0.6]`
+
+Expected Output:
+`[0.2, 0.4, 0.6, 0.8]`
+
+### Test Case 3
+Input: `[0.5, 0.1, 0.9]`
+
+Expected Output:
+`[0.1, 0.5, 0.9]`
+
+## Time Complexity
+- Average Case: O(n + k), under suitable distribution assumptions
+- Worst Case: O(n²), depending on bucket distribution and sorting method
+
+## Space Complexity
+- O(n + k), where k is the number of buckets.
