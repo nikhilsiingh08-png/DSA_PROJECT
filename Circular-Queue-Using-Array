@@ -1,0 +1,33 @@
+
+# 6. Circular Queue Using Array
+
+## Question Description
+Implement a circular queue using an array in C++. Perform enqueue, dequeue, and display operations. A circular queue reuses empty spaces by connecting the last array position back to the first.
+
+## Test Cases
+
+### Test Case 1
+Operations: `Enqueue(10), Enqueue(20), Enqueue(30), Dequeue()`
+
+Expected Output:
+`Deleted element: 10`
+
+### Test Case 2
+Operations: `Enqueue(5), Enqueue(15), Dequeue()`
+
+Expected Output:
+`Deleted element: 5`
+
+### Test Case 3
+Operations: `Enqueue(1), Enqueue(2), Enqueue(3), Dequeue(), Enqueue(4)`
+
+Expected Queue:
+`2 3 4`
+
+## Time Complexity
+- Enqueue: O(1)
+- Dequeue: O(1)
+- Display: O(n)
+
+## Space Complexity
+- O(n), where n is the array capacity.
