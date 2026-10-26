@@ -1,0 +1,11 @@
+
+# Trees
+
+This section contains C++ implementations of tree data structures.
+
+## Programs
+1. Binary Trees
+2. Binary Search Tree (BST)
+3. AVL Trees
+
+Each program will include the implementation, test cases, expected output, and time complexity.
