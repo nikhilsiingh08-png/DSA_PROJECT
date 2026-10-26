@@ -1,0 +1,14 @@
+
+# Stacks and Queues
+
+This section contains C++ implementations of stack and queue data structures.
+
+## Programs
+1. Stack Using Array
+2. Stack Using Linked List
+3. Queue Using Array
+4. Circular Queue Using Array
+5. Queue Using Linked List
+6. Parenthesis Matching
+
+Each program will include source code, test cases, expected output, and time complexity.
