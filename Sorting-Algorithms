@@ -1,0 +1,15 @@
+
+# Sorting Algorithms
+
+This section contains C++ implementations of sorting and selection algorithms.
+
+## Programs
+1. Merge Sort
+2. Quick Sort
+3. Radix Sort
+4. Heap Sort
+5. Bucket Sort
+6. K Smallest Elements (Partitioning)
+7. Bin Sort
+
+Each program includes the algorithm, test cases, expected output, and time complexity.
