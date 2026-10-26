@@ -1,0 +1,32 @@
+
+# 13. K Smallest Elements (Partitioning)
+
+## Question Description
+Given an array of integers and a number k, find the k smallest elements using the partitioning technique. The Quickselect algorithm partitions the array around a pivot to locate the required elements without fully sorting the array.
+
+## Test Cases
+
+### Test Case 1
+Input: `arr = [7, 10, 4, 3, 20, 15], k = 3`
+
+Expected Output:
+`[3, 4, 7]`
+
+### Test Case 2
+Input: `arr = [1, 2, 3, 4, 5], k = 2`
+
+Expected Output:
+`[1, 2]`
+
+### Test Case 3
+Input: `arr = [9, 4, 6, 2], k = 1`
+
+Expected Output:
+`[2]`
+
+## Time Complexity
+- Average Case: O(n)
+- Worst Case: O(n²)
+
+## Space Complexity
+- O(1) auxiliary space for an in-place partitioning implementation, excluding recursion stack if used.
