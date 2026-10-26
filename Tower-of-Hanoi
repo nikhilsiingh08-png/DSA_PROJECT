@@ -1,0 +1,33 @@
+
+# 15. Tower of Hanoi
+
+## Question Description
+Implement the Tower of Hanoi problem using recursion in C++. Move n disks from the source rod to the destination rod using an auxiliary rod. Only one disk can be moved at a time, and a larger disk cannot be placed on a smaller disk.
+
+## Test Cases
+
+### Test Case 1
+Input: `n = 1`
+
+Expected Output:
+`Move disk 1 from A to C`
+
+### Test Case 2
+Input: `n = 2`
+
+Expected Output:
+`Move disk 1 from A to B`
+`Move disk 2 from A to C`
+`Move disk 1 from B to C`
+
+### Test Case 3
+Input: `n = 3`
+
+Expected Output:
+7 moves, following the Tower of Hanoi rules.
+
+## Time Complexity
+- O(2^n)
+
+## Space Complexity
+- O(n), due to the recursion stack.
