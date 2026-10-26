@@ -1,0 +1,34 @@
+
+# 18. AVL Trees
+
+## Question Description
+Implement an AVL Tree in C++. An AVL Tree is a self-balancing Binary Search Tree in which the balance factor of every node is -1, 0, or +1. Implement insertion and inorder traversal.
+
+## Test Cases
+
+### Test Case 1
+Input: `[10, 20, 30]`
+
+Expected Output (Inorder):
+`10 20 30`
+
+### Test Case 2
+Input: `[30, 20, 10]`
+
+Expected Output (Inorder):
+`10 20 30`
+
+### Test Case 3
+Input: `[10, 30, 20]`
+
+Expected Output (Inorder):
+`10 20 30`
+
+## Time Complexity
+- Insertion: O(log n)
+- Search: O(log n)
+- Inorder traversal: O(n)
+
+## Space Complexity
+- O(n) for storing n nodes.
+- O(log n) recursion stack for balanced-tree operations.
