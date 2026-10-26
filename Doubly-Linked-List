@@ -1,0 +1,32 @@
+
+# 2. Doubly Linked List
+
+## Question Description
+Implement a Doubly Linked List in C++ using dynamic memory allocation. Each node contains data, a pointer to the previous node, and a pointer to the next node. Insert elements at the end and display the list.
+
+## Test Cases
+
+### Test Case 1
+Input: `10, 20, 30`
+
+Expected Output:
+`10 <-> 20 <-> 30 <-> NULL`
+
+### Test Case 2
+Input: `5, 15`
+
+Expected Output:
+`5 <-> 15 <-> NULL`
+
+### Test Case 3
+Input: `7`
+
+Expected Output:
+`7 <-> NULL`
+
+## Time Complexity
+- Insert at end: O(n) per insertion
+- Display: O(n)
+
+## Space Complexity
+- O(n)
