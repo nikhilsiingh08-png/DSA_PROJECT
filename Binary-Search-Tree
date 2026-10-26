@@ -1,0 +1,33 @@
+
+# 17. Binary Search Tree (BST)
+
+## Question Description
+Implement a Binary Search Tree in C++. Insert elements into the tree and perform inorder traversal. In a BST, values smaller than a node are placed in its left subtree, and values greater than the node are placed in its right subtree.
+
+## Test Cases
+
+### Test Case 1
+Input: `[50, 30, 70, 20, 40, 60, 80]`
+
+Expected Output (Inorder):
+`20 30 40 50 60 70 80`
+
+### Test Case 2
+Input: `[10, 5, 15]`
+
+Expected Output (Inorder):
+`5 10 15`
+
+### Test Case 3
+Input: `[8, 3, 12, 1]`
+
+Expected Output (Inorder):
+`1 3 8 12`
+
+## Time Complexity
+- Average insertion: O(log n)
+- Worst-case insertion: O(n)
+- Inorder traversal: O(n)
+
+## Space Complexity
+- O(h) recursion stack for recursive operations, where h is the tree height.
